@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="multi" parallel="classes" thread-count="3">
+    <test name="test1">
+        <classes >
+            <class name="com.test.testng.MutliThreadOnXml"/>
+            <class name="com.test.testng.ExceptionTest"/>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes >
+        	<class name="com.test.testng.MutliThreadOnXml"/>
+        </classes>
+    </test>
+</suite>

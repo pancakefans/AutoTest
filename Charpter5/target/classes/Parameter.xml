@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test2">
+	<test name="para">
+		<classes>
+		<!--注意   parameter中的name要跟@Parameters中的对应-->
+			<parameter name="name" value="张三"></parameter>
+			<parameter name="age" value="23"></parameter>
+			<class name="com.test.testng.ParameterTest"/>
+		</classes>
+	</test>
+</suite>

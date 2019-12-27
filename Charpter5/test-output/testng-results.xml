@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="73" started-at="2019-12-19T07:10:48Z" finished-at="2019-12-19T07:10:48Z">
+    <groups>
+      <group name="1">
+        <method signature="BasicAnnotince.testCase1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="testCase1" class="com.test.testng.BasicAnnotince"/>
+      </group> <!-- 1 -->
+      <group name="2">
+        <method signature="BasicAnnotince.testCase2()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="testCase2" class="com.test.testng.BasicAnnotince"/>
+      </group> <!-- 2 -->
+    </groups>
+    <test name="test1" duration-ms="35" started-at="2019-12-19T07:10:48Z" finished-at="2019-12-19T07:10:48Z">
+      <class name="com.test.testng.BasicAnnotince">
+        <test-method status="PASS" signature="beforeTest1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="beforeTest1" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest1 -->
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="beforeClass1" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="beforeGroups()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="beforeGroups" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroups -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="beforeMethod1" is-config="true" duration-ms="1" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="testCase1" duration-ms="7" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterGroups()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="afterGroups" is-config="true" duration-ms="1" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroups -->
+        <test-method status="PASS" signature="afterMethod2()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="afterMethod2" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod2 -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="beforeMethod1" is-config="true" duration-ms="1" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="testCase2" duration-ms="2" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod2()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="afterMethod2" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod2 -->
+        <test-method status="PASS" signature="afterClass1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="afterClass1" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass1 -->
+        <test-method status="PASS" signature="afterTest1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="afterTest1" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest1 -->
+      </class> <!-- com.test.testng.BasicAnnotince -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="6" started-at="2019-12-19T07:10:48Z" finished-at="2019-12-19T07:10:48Z">
+      <class name="com.test.testng.BasicAnnotince">
+        <test-method status="PASS" signature="beforeSuite1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="beforeSuite1" is-config="true" duration-ms="8" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite1 -->
+        <test-method status="PASS" signature="afterSuite1()[pri:0, instance:com.test.testng.BasicAnnotince@573f2bb1]" name="afterSuite1" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite1 -->
+      </class> <!-- com.test.testng.BasicAnnotince -->
+      <class name="com.test.testng.IgnoreTest">
+        <test-method status="PASS" signature="beforeTest1()[pri:0, instance:com.test.testng.IgnoreTest@d2cc05a]" name="beforeTest1" is-config="true" duration-ms="0" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest1 -->
+        <test-method status="PASS" signature="ignore1()[pri:0, instance:com.test.testng.IgnoreTest@d2cc05a]" name="ignore1" duration-ms="2" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ignore1 -->
+        <test-method status="PASS" signature="afterTest1()[pri:0, instance:com.test.testng.IgnoreTest@d2cc05a]" name="afterTest1" is-config="true" duration-ms="1" started-at="2019-12-19T15:10:48Z" finished-at="2019-12-19T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest1 -->
+      </class> <!-- com.test.testng.IgnoreTest -->
+    </test> <!-- test2 -->
+  </suite> <!-- suite1 -->
+</testng-results>

@@ -1,0 +1,18 @@
+server:
+   port: 8080 #指定启动端口号
+# 指定默认启动环境
+spring:
+   application:
+      name: test_service
+   profiles:
+      active: test # 默认环境
+   datasource:
+       driver-class-name: com.mysql.jdbc.Driver
+       url: jdbc:mysql://127.0.0.1:3306/test
+       username: admin
+       password: admin123
+
+mybatis:
+    type-aliases-package: com.test.pojo #这里是实体类的位置，多个package用逗号或分号分隔
+    mapper-locations:
+       - mapper/*

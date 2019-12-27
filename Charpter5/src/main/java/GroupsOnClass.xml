@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test1">
+	<test name="onlyRunStu">
+		<groups>
+			<run>
+				<include name="stu"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.test.testng.GroupsOnClass1"/>
+			<class name="com.test.testng.GroupsOnClass2"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.pojo">
+	<!-- 登录接口sql -->
+	<select id="login" parameterType="com.test.pojo.User" resultType="Integer">
+		select count(*) from user where username=#{username} and password=#{password};
+	</select>
+	<!--添加用户接口  -->
+	<insert id="addUser" parameterType="com.test.pojo.User" >
+		 insert into
+        user(username,password,sex,age,permisson,isDelete)
+        values
+        (#{username},#{password},#{sex},#{age},#{permisson},#{isDelete});
+	</insert>
+	<!-- 获取用户（列表）接口 -->
+	<!-- prefix:在trim标签内sql语句加上前缀
+    suffix:在trim标签内sql语句加上后缀
+    suffixOverrides:指定去除多余的后缀内容
+    prefixOverrides:指定去除多余的前缀内容 -->
+	<select id="getUserInfo" parameterType="com.test.pojo.User" resultType="com.test.pojo.User">
+		select * from user
+		<trim prefix="where" prefixOverrides="and">
+			<if test="null !=id and '' != id">
+				AND id=#{id}
+			</if>
+			<if test="null !=username and '' != username">
+				AND username=#{username}
+			</if>
+			<if test="null !=password and '' != password">
+				AND password=#{password}
+			</if>
+			<if test="null !=age and '' != age">
+				AND age=#{age}
+			</if>
+			<if test="null !=sex and '' != sex">
+				AND sex=#{sex}
+			</if>
+			<if test="null !=permisson and '' != permisson">
+				AND permisson=#{permisson}
+			</if>
+			<if test="null !=isDelete and '' != isDelete">
+				AND isDelete=#{isDelete}
+			</if>
+		</trim>
+	</select>
+	
+	<!-- 更新删除用户接口 -->
+	<update id="updateUser">
+		update user 
+		<trim prefix="set" suffixOverrides=",">
+			<if test="null !=username and '' != username">
+				 username=#{username},
+			</if>
+			<if test="null !=password and '' != password">
+				 password=#{password},
+			</if>
+			<if test="null !=age and '' != age">
+				age=#{age},
+			</if>
+			<if test="null !=sex and '' != sex">
+				sex=#{sex},
+			</if>
+			<if test="null !=permisson and '' != permisson">
+				permisson=#{permisson},
+			</if>
+			<if test="null !=isDelete and '' != isDelete">
+				isDelete=#{isDelete},
+			</if>
+		</trim>
+		where id=#{id};
+	</update>
+</mapper>

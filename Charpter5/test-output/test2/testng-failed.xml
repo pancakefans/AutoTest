@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test2]">
+  <test name="para(failed)">
+    <parameter name="name" value="张三"/>
+    <parameter name="age" value="23"/>
+    <classes>
+      <class name="com.test.testng.ParameterTest">
+        <methods>
+          <include name="paraTest"/>
+        </methods>
+      </class> <!-- com.test.testng.ParameterTest -->
+    </classes>
+  </test> <!-- para(failed) -->
+</suite> <!-- Failed suite [test2] -->

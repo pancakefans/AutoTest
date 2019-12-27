@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [我们自己的接口测试套件]">
+  <listeners>
+    <listener class-name="com.test.testng.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="这些是测试模块(failed)">
+    <classes>
+      <class name="com.test.testng.Demo1">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.test.testng.Demo1 -->
+    </classes>
+  </test> <!-- 这些是测试模块(failed) -->
+</suite> <!-- Failed suite [我们自己的接口测试套件] -->

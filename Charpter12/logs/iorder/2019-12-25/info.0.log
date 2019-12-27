@@ -1,0 +1,16 @@
+[INFO ] 2019-12-25 16:44:10 [main] Application - Starting Application on ylheq with PID 11508 (E:\mycodes\Charpter12\target\classes started by ylheq in E:\mycodes\Charpter12)
+[INFO ] 2019-12-25 16:44:10 [main] Application - The following profiles are active: test
+[INFO ] 2019-12-25 16:44:10 [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77fbd92c: startup date [Wed Dec 25 16:44:10 CST 2019]; root of context hierarchy
+[INFO ] 2019-12-25 16:44:10 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[INFO ] 2019-12-25 16:44:48 [main] Application - Starting Application on ylheq with PID 5556 (E:\mycodes\Charpter12\target\classes started by ylheq in E:\mycodes\Charpter12)
+[INFO ] 2019-12-25 16:44:48 [main] Application - The following profiles are active: test
+[INFO ] 2019-12-25 16:44:48 [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77fbd92c: startup date [Wed Dec 25 16:44:49 CST 2019]; root of context hierarchy
+[INFO ] 2019-12-25 16:44:48 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[INFO ] 2019-12-25 16:55:45 [main] Application - Starting Application on ylheq with PID 14188 (E:\mycodes\Charpter12\target\classes started by ylheq in E:\mycodes\Charpter12)
+[INFO ] 2019-12-25 16:55:45 [main] Application - The following profiles are active: test
+[INFO ] 2019-12-25 16:55:45 [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77fbd92c: startup date [Wed Dec 25 16:55:45 CST 2019]; root of context hierarchy
+[INFO ] 2019-12-25 16:55:45 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[INFO ] 2019-12-25 16:57:15 [main] Application - Starting Application on ylheq with PID 13304 (E:\mycodes\Charpter12\target\classes started by ylheq in E:\mycodes\Charpter12)
+[INFO ] 2019-12-25 16:57:15 [main] Application - The following profiles are active: test
+[INFO ] 2019-12-25 16:57:15 [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77fbd92c: startup date [Wed Dec 25 16:57:15 CST 2019]; root of context hierarchy
+[INFO ] 2019-12-25 16:57:15 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.test">
+    <select id="getPeopleCount" resultType="Integer">
+        select count(*) from people;
+    </select>
+    
+    <insert id="insPeo">
+    	insert into people values(#{id},#{name},#{age});
+    </insert>
+    
+    <update id="updPeo">
+    	update people set name=#{name},age=#{age} where id=#{id};
+    </update>
+    
+    <delete id="delPeo">
+    	delete from people where id =#{id};
+    </delete>
+   
+    <select id="login" parameterType="Integer" resultType="com.test.pojo.LoginCase">
+        select * from loginCase
+        where id=#{id};
+    </select>
+</mapper>
